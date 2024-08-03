@@ -1,0 +1,17 @@
+.container{
+    max-width: 1440px;
+    border: 2px solid green;
+    margin: auto;
+    display: grid;
+      grid-template-columns: repeat(auto-fit,150px);  
+     /* grid-template-columns: repeat(auto-fit,min-max(150px,1fr)); */
+    grid-row: 100px;
+    gap: 10px;
+    /* justify-content: center; */
+    place-content: center space-between;
+}
+.item{
+background: skyblue;
+padding: 10px;
+border: 2px solid black;
+}
